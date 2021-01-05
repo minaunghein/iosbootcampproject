@@ -16,6 +16,32 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+    @IBAction func showView(_ sender: UIButton) {
+        
+        let viewName = sender.titleLabel?.text ?? ""
+        var sbName = ""
+        switch (viewName){
+        case "View MAH": sbName = "MAH"
+        case "View ZYH": sbName = "ZYH"
+        case "View HMP": sbName = "HMP"
+        case "View MN": sbName = "MN"
+        case "View NYH": sbName = "NYH"
+        case "View PS": sbName = "PS"
+        case "View TZ": sbName = "TZ"
+        case "View TNO": sbName = "TNO"
+        default:sbName = "MAH"
+        }
+        
+        let sb = UIStoryboard(name: sbName, bundle: nil)
+        if let vc = sb.instantiateInitialViewController() {
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        
+    }
+    
+    
+    
 
     /*
     // MARK: - Navigation
