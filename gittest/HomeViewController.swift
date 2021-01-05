@@ -29,7 +29,7 @@ class HomeViewController: UIViewController {
         case "View NYH": sbName = "NYH"
         case "View PS": sbName = "PS"
         case "View TZ": sbName = "TZ"
-        case "View TNO": sbName = "TNO"
+        case "View TNO": sbName = "ViewTno"
         default:sbName = "MAH"
         }
         
