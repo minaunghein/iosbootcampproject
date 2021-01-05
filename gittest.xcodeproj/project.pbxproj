@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DB1EFFB25A48C8B00340002 /* PS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB1EFFA25A48C8B00340002 /* PS.storyboard */; };
+		4DB1EFFD25A48CB000340002 /* PSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1EFFC25A48CB000340002 /* PSViewController.swift */; };
 		EA794BE5259CA3E60068D1DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA794BE4259CA3E60068D1DB /* AppDelegate.swift */; };
 		EA794BE7259CA3E60068D1DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA794BE6259CA3E60068D1DB /* SceneDelegate.swift */; };
 		EA794BE9259CA3E60068D1DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA794BE8259CA3E60068D1DB /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4DB1EFFA25A48C8B00340002 /* PS.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PS.storyboard; sourceTree = "<group>"; };
+		4DB1EFFC25A48CB000340002 /* PSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSViewController.swift; sourceTree = "<group>"; };
 		EA794BE1259CA3E60068D1DB /* gittest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gittest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA794BE4259CA3E60068D1DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA794BE6259CA3E60068D1DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				EA794BED259CA3E80068D1DB /* Assets.xcassets */,
 				EA794BEF259CA3E80068D1DB /* LaunchScreen.storyboard */,
 				EA794BF2259CA3E80068D1DB /* Info.plist */,
+				4DB1EFFA25A48C8B00340002 /* PS.storyboard */,
+				4DB1EFFC25A48CB000340002 /* PSViewController.swift */,
 			);
 			path = gittest;
 			sourceTree = "<group>";
@@ -131,6 +137,7 @@
 				EA794BF1259CA3E80068D1DB /* LaunchScreen.storyboard in Resources */,
 				EA794BEE259CA3E80068D1DB /* Assets.xcassets in Resources */,
 				EA794BEC259CA3E60068D1DB /* Main.storyboard in Resources */,
+				4DB1EFFB25A48C8B00340002 /* PS.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +150,7 @@
 			files = (
 				EA794BE9259CA3E60068D1DB /* ViewController.swift in Sources */,
 				EA794BE5259CA3E60068D1DB /* AppDelegate.swift in Sources */,
+				4DB1EFFD25A48CB000340002 /* PSViewController.swift in Sources */,
 				EA794BE7259CA3E60068D1DB /* SceneDelegate.swift in Sources */,
 				EA794BF9259CA7500068D1DB /* HomeViewController.swift in Sources */,
 			);
