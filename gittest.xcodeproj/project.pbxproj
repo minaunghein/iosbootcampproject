@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BD0F538325A48E6C006163B6 /* ViewTno.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0F538225A48E6C006163B6 /* ViewTno.storyboard */; };
 		BD0F538525A48E83006163B6 /* TnoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0F538425A48E83006163B6 /* TnoViewController.swift */; };
+		056F8ED125A4913D0021826D /* MNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F8ED025A4913D0021826D /* MNViewController.swift */; };
+		056F8ED425A491470021826D /* MN.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056F8ED325A491470021826D /* MN.storyboard */; };
 		EA794BE5259CA3E60068D1DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA794BE4259CA3E60068D1DB /* AppDelegate.swift */; };
 		EA794BE7259CA3E60068D1DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA794BE6259CA3E60068D1DB /* SceneDelegate.swift */; };
 		EA794BE9259CA3E60068D1DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA794BE8259CA3E60068D1DB /* ViewController.swift */; };
@@ -23,6 +25,8 @@
 /* Begin PBXFileReference section */
 		BD0F538225A48E6C006163B6 /* ViewTno.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewTno.storyboard; sourceTree = "<group>"; };
 		BD0F538425A48E83006163B6 /* TnoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TnoViewController.swift; sourceTree = "<group>"; };
+		056F8ED025A4913D0021826D /* MNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNViewController.swift; sourceTree = "<group>"; };
+		056F8ED325A491470021826D /* MN.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MN.storyboard; sourceTree = "<group>"; };
 		EA794BE1259CA3E60068D1DB /* gittest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gittest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA794BE4259CA3E60068D1DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA794BE6259CA3E60068D1DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				EA794BF2259CA3E80068D1DB /* Info.plist */,
 				BD0F538225A48E6C006163B6 /* ViewTno.storyboard */,
 				BD0F538425A48E83006163B6 /* TnoViewController.swift */,
+				056F8ED025A4913D0021826D /* MNViewController.swift */,
+				056F8ED325A491470021826D /* MN.storyboard */,
 			);
 			path = gittest;
 			sourceTree = "<group>";
@@ -145,6 +151,7 @@
 				EA794BEE259CA3E80068D1DB /* Assets.xcassets in Resources */,
 				EA794BEC259CA3E60068D1DB /* Main.storyboard in Resources */,
 				EAA7C4A325A48C5A00F464B8 /* MAH.storyboard in Resources */,
+				056F8ED425A491470021826D /* MN.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +164,7 @@
 			files = (
 				EA794BE9259CA3E60068D1DB /* ViewController.swift in Sources */,
 				BD0F538525A48E83006163B6 /* TnoViewController.swift in Sources */,
+				056F8ED125A4913D0021826D /* MNViewController.swift in Sources */,
 				EA794BE5259CA3E60068D1DB /* AppDelegate.swift in Sources */,
 				EAA7C4A525A48C9E00F464B8 /* MAHViewController.swift in Sources */,
 				EA794BE7259CA3E60068D1DB /* SceneDelegate.swift in Sources */,
